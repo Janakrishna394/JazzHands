@@ -8,7 +8,6 @@
 
 #import "IFTTTViewAnimation.h"
 
-@interface IFTTTAlphaAnimation : IFTTTViewAnimation <IFTTTAnimatable>
 
 - (void)addKeyframeForTime:(CGFloat)time alpha:(CGFloat)alpha;
 - (void)addKeyframeForTime:(CGFloat)time alpha:(CGFloat)alpha withEasingFunction:(IFTTTEasingFunction)easingFunction;
